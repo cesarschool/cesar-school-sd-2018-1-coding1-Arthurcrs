@@ -15,7 +15,7 @@ void fizzBizz(int start, int end)
     
     for(int number = start; number <= end; number ++ )
     {
-        if ( (number % 3 == 0) and (number % 5 == 0) ) {
+        if ( (number % 3 == 0) && (number % 5 == 0) ) {
             printf("FizzBizz\n");
         } else if(number % 3 == 0) {
             printf("Fizz\n");
@@ -40,3 +40,5 @@ int main()
     
     return 0;
 }
+
+
